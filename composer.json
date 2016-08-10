@@ -16,6 +16,6 @@
         "phpunit/phpunit": "~3.7"
     },
     "autoload": {
-        "psr-4": { "Manapyzz": "src/" }
+        "psr-0": { "Manapyzz": "src/" }
     }
 }
