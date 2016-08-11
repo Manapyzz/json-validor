@@ -2,7 +2,7 @@
 
 class JsonValidator
 {
-    public function validate($array_base, $array_data) {
+    public static function validate($array_base, $array_data) {
 
         $diff = array_diff_key($array_base, $array_data);
 
